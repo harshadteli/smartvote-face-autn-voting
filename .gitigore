@@ -1,0 +1,42 @@
+# Ignore user-uploaded runtime data
+/uploads/
+
+# Ignore local environment / IDE files
+/.vscode/
+/.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.bak
+*.tmp
+*.temp
+*.log
+
+# Ignore OS files
+Thumbs.db
+.DS_Store
+
+# Ignore generic dependency and build folders
+/vendor/
+/node_modules/
+
+# Ignore environment files and sensitive configs
+.env
+.env.*
+
+# Ignore local database or cache artifacts
+*.cache
+*.sql~
+
+# Ignore temporary files created by editors or OS
+*~
+*.orig
+
+# Ignore PHPStorm and JetBrains metadata
+.idea/
+*.iml
+
+# Ignore Composer lock if you do not want it committed
+composer.lock
